@@ -1,0 +1,18 @@
+! name: Media Credibility Index (MCR)
+! description: Rerank results to remove opinion, analysis, views, takes, YouTube, and discredited sites using the WP:POV ranking
+! public: true
+! author: Goggles 101
+! avatar: #0a7c41
+
+! Remove results not matching any other rule
+$discard
+
+! Exclude discredited sites
+$discard,site=medium.com
+$discard,site=youtube.com
+$discard,site=facebook.com
+
+! Exclude Opinions and Analysis
+$discard,opinion$inurl
+$discard,op-ed$inurl
+$discard,analysis$inurl
