@@ -1,7 +1,7 @@
 ! name: Reading Glasses
-! description: Rerank results to remove opinion, analysis, views, takes, YouTube, and discredited sites using the WP:POV ranking
+! description: Rerank results to remove opinion, analysis, views, takes, YouTube, and partisan websites.
 ! public: true
-! author: Goggles 101
+! author: theinstantwin
 ! avatar: #0a7c41
 
 ! Exclude unverified sources
@@ -30,3 +30,12 @@ $discard,site=americanthinker.com
 $discard,site=bongino.com
 $discard,site=nypost.com
 $discard,site=dailynews.com
+$discard,site=dailykos.com
+$discard,site=crooksandliars.com
+$discard,site=democracynow.org
+$discard,site=talkleft.com
+$discard,site=hotair.com
+$discard,site=westernjournal.com
+$discard,site=thegatewaypundit.com
+$discard,site=freebeacon.com
+$discard,site=dailycaller.com
