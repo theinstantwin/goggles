@@ -4,9 +4,6 @@
 ! author: Goggles 101
 ! avatar: #0a7c41
 
-! Remove results not matching any other rule
-$discard
-
 ! Exclude unverified sources
 $discard,site=medium.com
 $discard,site=youtube.com
@@ -28,3 +25,8 @@ $discard,site=washingtontimes.com
 $discard,site=thefederalist.com
 $discard,site=slate.com
 $discard,site=salon.com
+$discard,site=breitbart.com
+$discard,site=americanthinker.com
+$discard,site=bongino.com
+$discard,site=nypost.com
+$discard,site=dailynews.com
