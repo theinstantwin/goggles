@@ -7,12 +7,12 @@
 ! Remove results not matching any other rule
 $discard
 
-! Exclude discredited sites
+! Exclude unverified sources
 $discard,site=medium.com
 $discard,site=youtube.com
 $discard,site=facebook.com
 
 ! Exclude Opinions and Analysis
-$discard,opinion$inurl
+$discard,opinion$inurl,site=
 $discard,op-ed$inurl
 $discard,analysis$inurl
