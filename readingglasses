@@ -13,9 +13,9 @@ $discard,site=youtube.com
 $discard,site=facebook.com
 
 ! Exclude Opinions and Analysis
-$discard,opinion$inurl,site=
-$discard,op-ed$inurl
-$discard,analysis$inurl
+opinion$discard
+op-ed$discard
+analysis$discard
 
 
 ! Exclude AllSides.com Media Bias
