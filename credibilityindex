@@ -1,4 +1,4 @@
-! name: Media Credibility Index (MCR)
+! name: Reading Glasses
 ! description: Rerank results to remove opinion, analysis, views, takes, YouTube, and discredited sites using the WP:POV ranking
 ! public: true
 ! author: Goggles 101
@@ -16,3 +16,15 @@ $discard,site=facebook.com
 $discard,opinion$inurl,site=
 $discard,op-ed$inurl
 $discard,analysis$inurl
+
+
+! Exclude AllSides.com Media Bias
+$discard,site=alternet.org
+$discard,site=vox.com
+$discard,site=theblaze.com
+$discard,site=thepostmillennial.com
+$discard,site=theblaze.com
+$discard,site=washingtontimes.com
+$discard,site=thefederalist.com
+$discard,site=slate.com
+$discard,site=salon.com
