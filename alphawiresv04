@@ -15,6 +15,19 @@ op-ed$discard
 analysis$discard
 ideas$discard
 
+! Exclude Clickbait Titles
+slammed$discard,intitle
+slams$discard,intitle
+analysis$discard
+ideas$discard
+
+
+! Exclude Ghostwritten or Content with no Byline
+Fox News Staff$discard,indescription
+Fox News Staff$discard,incontent
+Guardian Staff$discard,indescription
+Guardian Staff$discard,incontent
+
 ! Exclude AdFontes Media Bias Chart Outliers: More at AdFontes Media dot com
 $discard,site=alternet.org
 $discard,site=vox.com
