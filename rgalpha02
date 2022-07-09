@@ -54,3 +54,5 @@ $discard,site=epochtimes.com
 $discard,site=thecharliekirkshow.com
 $discard,site=newsbusters.org
 $discard,site=weeklystandard.com
+$discard,site=nationalreview.com
+$discard,site=townhall.com
