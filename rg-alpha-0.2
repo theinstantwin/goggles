@@ -1,0 +1,65 @@
+
+! name: Reading Glasses Alpha - Version 0.2
+! description: Show results that minimize opinion, analysis, views, takes, UGC, and partisan websites.
+! public: true
+! author: theinstantwin
+! avatar: #0a7c41
+
+! Alpha v.02 changelog
+! Modified: Description adjusted to better specify the functionality of Reading Glasses. Because the algorithm does not "weigh" sources, language clarifies.
+! Modified: Using AdFontes Media bias chart vs. AllSides.com. Easier to read.
+! Added: 14 sites to AdFontes Media Bias Chart
+! Added: "Ideas" negative subfolder modifier
+
+! Exclude unverified sources
+$discard,site=medium.com
+$discard,site=youtube.com
+$discard,site=facebook.com
+
+! Exclude Opinions and Analysis
+opinion$discard
+op-ed$discard
+analysis$discard
+ideas$discard
+
+
+! Exclude AdFontes Media Bias Chart Outliers: More at https://adfontesmedia.com/
+$discard,site=alternet.org
+$discard,site=vox.com
+$discard,site=theblaze.com
+$discard,site=thepostmillennial.com
+$discard,site=theblaze.com
+$discard,site=washingtontimes.com
+$discard,site=thefederalist.com
+$discard,site=slate.com
+$discard,site=salon.com
+$discard,site=breitbart.com
+$discard,site=americanthinker.com
+$discard,site=bongino.com
+$discard,site=nypost.com
+$discard,site=dailynews.com
+$discard,site=dailykos.com
+$discard,site=crooksandliars.com
+$discard,site=democracynow.org
+$discard,site=talkleft.com
+$discard,site=hotair.com
+$discard,site=westernjournal.com
+$discard,site=thegatewaypundit.com
+$discard,site=freebeacon.com
+$discard,site=dailycaller.com
+$discard,site=rachelmaddow.com
+$discard,site=palmerreport.com
+$discard,site=tyt.com
+$discard,site=crooked.com
+$discard,site=rawstory.com
+$discard,site=prageru.com
+$discard,site=occupydemocrats.com
+$discard,site=conservativetreehouse.com
+$discard,site=meidastouch.com
+$discard,site=turningpointusa.com
+$discard,site=wsws.org
+$discard,site=epochtimes.com
+$discard,site=thecharliekirkshow.com
+$discard,site=foxnews.com/shows/tucker-carlson-tonight
+$discard,site=newsbusters.org
+$discard,site=weeklystandard.com
