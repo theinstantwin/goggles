@@ -1,5 +1,5 @@
 
-! name: Reading Glasses Alpha - Version 0.2
+! name: Reading Glasses Alpha Version 2
 ! description: Show results that minimize opinion, analysis, views, takes, UGC, and partisan websites.
 ! public: true
 ! author: theinstantwin
@@ -60,6 +60,5 @@ $discard,site=turningpointusa.com
 $discard,site=wsws.org
 $discard,site=epochtimes.com
 $discard,site=thecharliekirkshow.com
-$discard,site=foxnews.com/shows/tucker-carlson-tonight
 $discard,site=newsbusters.org
 $discard,site=weeklystandard.com
