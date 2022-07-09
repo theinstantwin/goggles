@@ -56,3 +56,5 @@ $discard,site=newsbusters.org
 $discard,site=weeklystandard.com
 $discard,site=nationalreview.com
 $discard,site=townhall.com
+$discard,site=jacobin.com
+$discard,site=washingtonexaminer.com
